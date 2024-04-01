@@ -14,7 +14,7 @@ pip install virtualenv
 ```bash
 virtualenv my_env
 ```
-- Activamos el entorno virtual (linux)
+- Activamos el entorno virtual (para linux)
 ```bash
 source my_env/bin/activate
 ```
