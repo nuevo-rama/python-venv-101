@@ -18,6 +18,32 @@ virtualenv my_env
 ```bash
 source my_env/bin/activate
 ```
+- Desactivar el entorno virtual
+```bash
+deactivate
+```
+- Con el entorno virtual activado (my_env)
+- Instalar un paquete dentro del entorno virtual
+```bash
+pip install nombre_paquete
+```
+- Desinstalar un paquete dentro del entorno virtual
+```bash
+pip uninstall nombre_paquete
+```
+- Listar todos los paquetes del entorno virtual
+```bash
+pip list
+```
+- Crear un archivo de texto que contenga todos los requisitos del entorno virtual
+```bash
+pip freeze > requirements.txt
+```
+- Instalar paquetes desde un archivo de requerimientos
+```bash
+pip install -r requirements.txt
+```
+
 
 
 
